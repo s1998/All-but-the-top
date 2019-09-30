@@ -86,10 +86,23 @@ Results obtained on Davidson et al (2017) using two different embeddings.
 Effects of using post processing on Glove Embeddings on Davidson et Al(2017)
 
 
-| Model   |  	Preprocessed              |    Post-processed             | 
-|---------|-------------------------------|-------------------------------|
-|         |   P   |   R   |   F1  |  Acc  |   P   |   R   |  F1   |  Acc  |
 <table>
+  <tr>
+  	<td> Model </td>
+  	<td colspan="4"> Preprocessed </td>
+  	<td colspan="4"> Postprocessed </td>
+  </tr>
+  <tr>
+  	<td></td> 
+  	<td>  P  </td>
+  	<td>  R  </td>
+  	<td>  F1  </td> 
+  	<td>  Acc  </td> 
+  	<td>  P  </td> 
+  	<td>  R  </td> 
+  	<td>  F1  </td> 
+  	<td>  Acc  </td> 
+  </tr>
   <tr>
   	<td> AvgPool </td> 
   	<td> 0.849 </td>
