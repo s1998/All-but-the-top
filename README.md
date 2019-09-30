@@ -20,15 +20,68 @@ Two principal components of the embeddings with color map for frequency.
 
 Results obtained on Davidson et al (2017) using two different embeddings.
 
-
-
-| Model   |  	Preprocessed              |    Post-processed             | 
-|---------|-------------------------------|-------------------------------|
-|         |   P   |   R   |   F1  |  Acc  |   P   |   R   |  F1   |  Acc  |
-| AvgPool | 0.871 | 0.892 | 0.874 | 0.882 | 0.855 | 0.887 | 0.862 | 0.887 |
-| MaxPool | 0.891 | 0.887 | 0.859 | 0.887 | 0.888 | 0.903 | 0.884 | 0.903 |
-| CNN     | 0.885 | 0.903 | 0.880 | 0.903 | 0.890 | 0.905 | 0.892 | 0.905 |
-| GRU     | 0.894 | 0.907 | 0.898 | 0.907 | 0.899 | 0.914 | 0.902 | 0.914 |
+<table>
+  <tr>
+  	<td> Model </td>
+  	<td colspan="4"> Preprocessed </td>
+  	<td colspan="4"> Postprocessed </td>
+  </tr>
+  <tr>
+  	<td></td> 
+  	<td>  P  </td>
+  	<td>  R  </td>
+  	<td>  F1  </td> 
+  	<td>  Acc  </td> 
+  	<td>  P  </td> 
+  	<td>  R  </td> 
+  	<td>  F1  </td> 
+  	<td>  Acc  </td> 
+  </tr>
+  <tr>
+  	<td>AvgPool </td> 
+  	<td> 0.871  </td>
+  	<td> 0.892  </td>
+  	<td> 0.874  </td> 
+  	<td> 0.882  </td> 
+  	<td> 0.855  </td> 
+  	<td> 0.887  </td> 
+  	<td> 0.862  </td> 
+  	<td> 0.887  </td> 
+  </tr>
+  <tr>
+  	<td>MaxPool </td> 
+  	<td> 0.891  </td>
+  	<td> 0.887  </td>
+  	<td> 0.859  </td> 
+  	<td> 0.887  </td> 
+  	<td> 0.888  </td> 
+  	<td> 0.903  </td> 
+  	<td> 0.884  </td> 
+  	<td> 0.903  </td> 
+  </tr>
+  <tr>
+  	<td>CNN     </td> 
+  	<td> 0.885  </td>
+  	<td> 0.903  </td>
+  	<td> 0.880  </td> 
+  	<td> 0.903  </td> 
+  	<td> 0.890  </td> 
+  	<td> 0.905  </td> 
+  	<td> 0.892  </td> 
+  	<td> 0.905  </td> 
+  </tr>
+  <tr>
+  	<td>GRU     </td> 
+  	<td> 0.894  </td>
+  	<td> 0.907  </td>
+  	<td> 0.898  </td> 
+  	<td> 0.907  </td> 
+  	<td> 0.899  </td> 
+  	<td> 0.914  </td> 
+  	<td> 0.902  </td> 
+  	<td> 0.914  </td> 
+  </tr>
+</table>
 
 Effects of using post processing on Glove Embeddings on Davidson et Al(2017)
 
