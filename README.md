@@ -11,7 +11,7 @@ Libraries used: Keras with tensorflow backend.
 
 ### Sample plot
 
-![image of principal components](https://raw.githubusercontent.com/s1998/All-but-the-top/master/images/gloveFreqPlot.png)
+![image-of-principal-components](https://raw.githubusercontent.com/s1998/All-but-the-top/master/images/gloveFreqPlot.png)
 
 Two principal components of the embeddings with color map for frequency.
 
