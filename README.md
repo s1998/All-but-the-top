@@ -1,4 +1,25 @@
+
 # All-but-the-top
+
+Implementation of the paper All-but-the-top from ICLR 2018.
+
+## Instructions to use
+
+To run, use the file runner.py
+
+Libraries used: Keras with tensorflow backend.
+
+### Sample plot
+
+![alt text](https://raw.githubusercontent.com/s1998/All-but-the-top/master/images/gloveFreqPlot.png)
+
+Two principal components of the embeddings with color map for frequency.
+
+
+## Results 
+
+Results obtained on Davidson et al (2017) using two different embeddings.
+
 
 
 | Model   |  	Preprocessed              |    Post-processed             | 
