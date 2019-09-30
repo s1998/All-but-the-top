@@ -89,9 +89,51 @@ Effects of using post processing on Glove Embeddings on Davidson et Al(2017)
 | Model   |  	Preprocessed              |    Post-processed             | 
 |---------|-------------------------------|-------------------------------|
 |         |   P   |   R   |   F1  |  Acc  |   P   |   R   |  F1   |  Acc  |
-| AvgPool | 0.849 | 0.899 | 0.873 | 0.899 | 0.898 | 0.893 | 0.868 | 0.883 |
-| MaxPool | 0.829 | 0.881 | 0.853 | 0.881 | 0.891 | 0.887 | 0.872 | 0.887 |
-| CNN     | 0.838 | 0.887 | 0.861 | 0.887 | 0.875 | 0.893 | 0.875 | 0.891 |
-| GRU     | 0.854 | 0.904 | 0.878 | 0.904 | 0.910 | 0.903 | 0.881 | 0.903 |
+<table>
+  <tr>
+  	<td> AvgPool </td> 
+  	<td> 0.849 </td>
+  	<td> 0.899 </td>
+  	<td> 0.873 </td>
+  	<td> 0.899 </td>
+  	<td> 0.898 </td>
+  	<td> 0.893 </td>
+  	<td> 0.868 </td>
+  	<td> 0.883 </td>
+  </tr>
+  <tr>
+  	<td> MaxPool </td> 
+  	<td> 0.829 </td>
+  	<td> 0.881 </td>
+  	<td> 0.853 </td>
+  	<td> 0.881 </td>
+  	<td> 0.891 </td>
+  	<td> 0.887 </td>
+	<td> 0.872 </td>
+	<td> 0.887 </td>
+  </tr>
+  <tr>
+  	<td> CNN     </td> 
+  	<td> 0.838 </td>
+  	<td> 0.887 </td>
+  	<td> 0.861 </td>
+  	<td> 0.887 </td>
+  	<td> 0.875 </td>
+  	<td> 0.893 </td>
+	<td> 0.875 </td>
+	<td> 0.891</td>
+  </tr>
+  <tr>
+  	<td> GRU     </td> 
+  	<td> 0.854 </td>
+  	<td> 0.904 </td>
+  	<td> 0.878 </td>
+  	<td> 0.904 </td>
+  	<td> 0.910 </td>
+  	<td> 0.903 </td>
+	<td> 0.881 </td>
+	<td> 0.903</td>
+  </tr>
+</table>
 
 Effects of using post processing on Word2Vec Embeddings on Davidson et Al(2017)
