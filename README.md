@@ -1,7 +1,7 @@
 
 # All-but-the-top
 
-Implementation of the paper All-but-the-top from ICLR 2018.
+Implementation of the paper [All-but-the-top](https://openreview.net/forum?id=HkuGJ3kCb) from ICLR 2018.
 
 ## Instructions to use
 
