@@ -39,10 +39,10 @@ Results obtained on Davidson et al (2017) using two different embeddings.
   </tr>
   <tr>
   	<td>AvgPool </td> 
-  	<td> 0.871  </td>
-  	<td> 0.892  </td>
-  	<td> 0.874  </td> 
-  	<td> 0.882  </td> 
+  	<td> 0.811  </td>
+  	<td> 0.721  </td>
+  	<td> 0.756  </td> 
+  	<td> 0.762  </td> 
   	<td> 0.855  </td> 
   	<td> 0.887  </td> 
   	<td> 0.862  </td> 
@@ -50,10 +50,10 @@ Results obtained on Davidson et al (2017) using two different embeddings.
   </tr>
   <tr>
   	<td>MaxPool </td> 
-  	<td> 0.891  </td>
-  	<td> 0.887  </td>
-  	<td> 0.859  </td> 
-  	<td> 0.887  </td> 
+  	<td> 0.779  </td>
+  	<td> 0.834  </td>
+  	<td> 0.792  </td> 
+  	<td> 0.787  </td> 
   	<td> 0.888  </td> 
   	<td> 0.903  </td> 
   	<td> 0.884  </td> 
@@ -105,10 +105,10 @@ Effects of using post processing on Glove Embeddings on Davidson et Al(2017)
   </tr>
   <tr>
   	<td> AvgPool </td> 
-  	<td> 0.849 </td>
-  	<td> 0.899 </td>
-  	<td> 0.873 </td>
-  	<td> 0.899 </td>
+  	<td> 0.787 </td>
+  	<td> 0.732 </td>
+  	<td> 0.754 </td>
+  	<td> 0.782 </td>
   	<td> 0.898 </td>
   	<td> 0.893 </td>
   	<td> 0.868 </td>
@@ -116,10 +116,10 @@ Effects of using post processing on Glove Embeddings on Davidson et Al(2017)
   </tr>
   <tr>
   	<td> MaxPool </td> 
-  	<td> 0.829 </td>
-  	<td> 0.881 </td>
-  	<td> 0.853 </td>
-  	<td> 0.881 </td>
+  	<td> 0.703 </td>
+  	<td> 0.756 </td>
+  	<td> 0.724 </td>
+  	<td> 0.751 </td>
   	<td> 0.891 </td>
   	<td> 0.887 </td>
 	<td> 0.872 </td>
