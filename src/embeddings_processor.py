@@ -12,5 +12,5 @@ def get_processed_embeddings(embedding_matrix_orig, n_components = 1):
 	principalComponents = pca.fit_transform(temp)
 	principalAxes = pca.components_
 	toSubstract = np.matmul(np.matmul(embedding_matrix, principalAxes.T), principalAxes)
-	processed = embedding_matrix - mean - toSubstract
+	processed = temp - toSubstract
 	return processed
